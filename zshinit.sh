@@ -4,6 +4,8 @@
 # install zsh and powerline theme
 cd ${HOME}
 sudo apt-get install zsh
+git clone https://github.com/robbyrussell/oh-my-zsh.git
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 git clone http://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme
 sudo ./oh-my-zsh-powerline-theme/install.sh
 
